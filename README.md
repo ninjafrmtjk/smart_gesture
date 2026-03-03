@@ -22,14 +22,17 @@ Built with **MediaPipe** + **OpenCV**, this project tracks your hand through a w
 
 ```bash
 # Create virtual environment with Python 3.11
+
+# Open cmd
 py -3.11 -m venv venv
 venv\Scripts\activate
 
 # Install dependencies
-pip install mediapipe==0.11 opencv-python pyautogui
+pip install mediapipe==0.10.9 opencv-python pyautogui
+cd C:\...(project location)
 
 # Run
-python gesturetest.py
+python main.py
 ```
 
 > Press **Q** to quit.
