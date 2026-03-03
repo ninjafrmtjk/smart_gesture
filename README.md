@@ -29,6 +29,8 @@ venv\Scripts\activate
 
 # Install dependencies
 pip install mediapipe==0.10.9 opencv-python pyautogui
+
+# Choose location of project
 cd C:\...(project location)
 
 # Run
